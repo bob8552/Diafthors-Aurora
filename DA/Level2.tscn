@@ -1,0 +1,349 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Flin.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/Forest_3.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Corruption_1.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Corruption_3.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Corruption_2.png" type="Texture" id=5]
+[ext_resource path="res://Assets/Forest_2.png" type="Texture" id=6]
+[ext_resource path="res://Assets/Forest_1.png" type="Texture" id=7]
+[ext_resource path="res://Assets/Tree_2.png" type="Texture" id=8]
+
+[node name="Level2" type="Node2D"]
+
+[node name="Sprites" type="Node2D" parent="."]
+
+[node name="Forest_3" type="Sprite" parent="Sprites"]
+position = Vector2( 261.136, 592 )
+texture = ExtResource( 2 )
+
+[node name="Forest_4" type="Sprite" parent="Sprites"]
+position = Vector2( 768, 584 )
+texture = ExtResource( 2 )
+
+[node name="Forest_5" type="Sprite" parent="Sprites"]
+position = Vector2( 1280, 584 )
+texture = ExtResource( 2 )
+
+[node name="Forest_6" type="Sprite" parent="Sprites"]
+position = Vector2( 1792, 584 )
+texture = ExtResource( 2 )
+
+[node name="Forest_7" type="Sprite" parent="Sprites"]
+position = Vector2( 261.136, 336 )
+texture = ExtResource( 2 )
+
+[node name="Forest_8" type="Sprite" parent="Sprites"]
+position = Vector2( 768, 328 )
+texture = ExtResource( 2 )
+
+[node name="Forest_9" type="Sprite" parent="Sprites"]
+position = Vector2( 1280, 328 )
+texture = ExtResource( 2 )
+
+[node name="Forest_10" type="Sprite" parent="Sprites"]
+position = Vector2( 1792, 328 )
+texture = ExtResource( 2 )
+
+[node name="Forest_11" type="Sprite" parent="Sprites"]
+position = Vector2( 261.136, 79.9999 )
+texture = ExtResource( 2 )
+
+[node name="Forest_12" type="Sprite" parent="Sprites"]
+position = Vector2( 768, 72.0001 )
+texture = ExtResource( 2 )
+
+[node name="Forest_13" type="Sprite" parent="Sprites"]
+position = Vector2( 1280, 72.0001 )
+texture = ExtResource( 2 )
+
+[node name="Forest_14" type="Sprite" parent="Sprites"]
+position = Vector2( 1792, 71.9999 )
+texture = ExtResource( 2 )
+
+[node name="Forest_15" type="Sprite" parent="Sprites"]
+position = Vector2( 261.136, -176 )
+texture = ExtResource( 2 )
+
+[node name="Forest_16" type="Sprite" parent="Sprites"]
+position = Vector2( 768, -184 )
+texture = ExtResource( 2 )
+
+[node name="Forest_17" type="Sprite" parent="Sprites"]
+position = Vector2( 1280, -184 )
+texture = ExtResource( 2 )
+
+[node name="Forest_18" type="Sprite" parent="Sprites"]
+position = Vector2( 1792, -184 )
+texture = ExtResource( 2 )
+
+[node name="Forest_19" type="Sprite" parent="Sprites"]
+position = Vector2( 261.136, -432 )
+texture = ExtResource( 2 )
+
+[node name="Forest_24" type="Sprite" parent="Sprites"]
+position = Vector2( -248, 592 )
+texture = ExtResource( 2 )
+
+[node name="Forest_25" type="Sprite" parent="Sprites"]
+position = Vector2( -248, 336 )
+texture = ExtResource( 2 )
+
+[node name="Forest_26" type="Sprite" parent="Sprites"]
+position = Vector2( -248, 79.9999 )
+texture = ExtResource( 2 )
+
+[node name="Forest_27" type="Sprite" parent="Sprites"]
+position = Vector2( -248, -176 )
+texture = ExtResource( 2 )
+
+[node name="Forest_28" type="Sprite" parent="Sprites"]
+position = Vector2( -248, -432 )
+texture = ExtResource( 2 )
+
+[node name="Forest_20" type="Sprite" parent="Sprites"]
+position = Vector2( 768, -440 )
+texture = ExtResource( 2 )
+
+[node name="Forest_21" type="Sprite" parent="Sprites"]
+position = Vector2( 1280, -440 )
+texture = ExtResource( 2 )
+
+[node name="Forest_22" type="Sprite" parent="Sprites"]
+position = Vector2( 1792, -440 )
+texture = ExtResource( 2 )
+
+[node name="Corruption_3" type="Sprite" parent="Sprites"]
+position = Vector2( 328, 384 )
+texture = ExtResource( 4 )
+
+[node name="Forest_1" type="Sprite" parent="Sprites"]
+position = Vector2( 1080, 520 )
+texture = ExtResource( 7 )
+
+[node name="Forest_2" type="Sprite" parent="Sprites"]
+position = Vector2( 1098.8, -263.158 )
+texture = ExtResource( 7 )
+
+[node name="Forest_23" type="Sprite" parent="Sprites"]
+position = Vector2( 1661.69, -351.65 )
+texture = ExtResource( 6 )
+
+[node name="Corruption_4" type="Sprite" parent="Sprites"]
+position = Vector2( 834.519, -118.866 )
+texture = ExtResource( 4 )
+
+[node name="Forest_29" type="Sprite" parent="Sprites"]
+position = Vector2( 253.136, -688 )
+texture = ExtResource( 2 )
+
+[node name="Forest_30" type="Sprite" parent="Sprites"]
+position = Vector2( 760, -696 )
+texture = ExtResource( 2 )
+
+[node name="Forest_31" type="Sprite" parent="Sprites"]
+position = Vector2( 1272, -696 )
+texture = ExtResource( 2 )
+
+[node name="Forest_32" type="Sprite" parent="Sprites"]
+position = Vector2( 1784, -696 )
+texture = ExtResource( 2 )
+
+[node name="Forest_33" type="Sprite" parent="Sprites"]
+position = Vector2( 253.136, -944 )
+texture = ExtResource( 2 )
+
+[node name="Forest_34" type="Sprite" parent="Sprites"]
+position = Vector2( -256, -688 )
+texture = ExtResource( 2 )
+
+[node name="Forest_35" type="Sprite" parent="Sprites"]
+position = Vector2( -256, -944 )
+texture = ExtResource( 2 )
+
+[node name="Forest_36" type="Sprite" parent="Sprites"]
+position = Vector2( 760, -952 )
+texture = ExtResource( 2 )
+
+[node name="Forest_37" type="Sprite" parent="Sprites"]
+position = Vector2( 1272, -952 )
+texture = ExtResource( 2 )
+
+[node name="Forest_38" type="Sprite" parent="Sprites"]
+position = Vector2( 1784, -952 )
+texture = ExtResource( 2 )
+
+[node name="Forest_39" type="Sprite" parent="Sprites"]
+position = Vector2( 1090.8, -775.158 )
+texture = ExtResource( 7 )
+
+[node name="Forest_40" type="Sprite" parent="Sprites"]
+position = Vector2( 1653.69, -863.65 )
+texture = ExtResource( 6 )
+
+[node name="Corruption_6" type="Sprite" parent="Sprites"]
+position = Vector2( 394.031, -1004.62 )
+texture = ExtResource( 5 )
+
+[node name="Corruption_8" type="Sprite" parent="Sprites"]
+position = Vector2( 832, -888 )
+texture = ExtResource( 4 )
+
+[node name="Tree_2" type="Sprite" parent="."]
+position = Vector2( 230.929, 17.0521 )
+texture = ExtResource( 8 )
+
+[node name="Tree_3" type="Sprite" parent="."]
+position = Vector2( 1092.86, -309.122 )
+texture = ExtResource( 8 )
+
+[node name="Tree_4" type="Sprite" parent="."]
+position = Vector2( 1127.97, 442.231 )
+texture = ExtResource( 8 )
+
+[node name="Tree_5" type="Sprite" parent="."]
+position = Vector2( 1523.08, 303.046 )
+texture = ExtResource( 8 )
+
+[node name="Tree_6" type="Sprite" parent="."]
+position = Vector2( -66.3258, -294.104 )
+texture = ExtResource( 8 )
+
+[node name="Tree_7" type="Sprite" parent="."]
+position = Vector2( -59.0604, 237.193 )
+texture = ExtResource( 8 )
+
+[node name="Corruption_2" type="Sprite" parent="."]
+position = Vector2( 1360, -368 )
+texture = ExtResource( 5 )
+
+[node name="Corruption_1" type="Sprite" parent="."]
+position = Vector2( 1641.34, 28.9509 )
+texture = ExtResource( 3 )
+
+[node name="Corruption_3" type="Sprite" parent="."]
+position = Vector2( 1488, -368 )
+texture = ExtResource( 5 )
+
+[node name="Corruption_4" type="Sprite" parent="."]
+position = Vector2( 328, 256 )
+texture = ExtResource( 4 )
+
+[node name="Forest_1" type="Sprite" parent="."]
+position = Vector2( 323.582, -355.438 )
+texture = ExtResource( 7 )
+
+[node name="Forest_2" type="Sprite" parent="."]
+position = Vector2( 568.23, 502.706 )
+texture = ExtResource( 7 )
+
+[node name="Forest_3" type="Sprite" parent="."]
+position = Vector2( -425.662, -253.803 )
+texture = ExtResource( 7 )
+
+[node name="Forest_4" type="Sprite" parent="."]
+position = Vector2( -189.893, 409.036 )
+texture = ExtResource( 7 )
+
+[node name="Forest_5" type="Sprite" parent="."]
+position = Vector2( 836.334, 139.76 )
+texture = ExtResource( 7 )
+
+[node name="Forest_6" type="Sprite" parent="."]
+position = Vector2( 78.1652, 25.5276 )
+texture = ExtResource( 7 )
+
+[node name="Tree_8" type="Sprite" parent="."]
+position = Vector2( 942.399, -6.50537 )
+texture = ExtResource( 8 )
+
+[node name="Corruption_5" type="Sprite" parent="."]
+position = Vector2( -400, -304 )
+texture = ExtResource( 5 )
+
+[node name="Corruption_6" type="Sprite" parent="."]
+position = Vector2( -424, 280 )
+texture = ExtResource( 5 )
+
+[node name="Corruption_7" type="Sprite" parent="."]
+position = Vector2( -184, 640 )
+texture = ExtResource( 4 )
+
+[node name="Tree_9" type="Sprite" parent="."]
+position = Vector2( 1084.86, -821.122 )
+texture = ExtResource( 8 )
+
+[node name="Tree_10" type="Sprite" parent="."]
+position = Vector2( -74.3258, -806.104 )
+texture = ExtResource( 8 )
+
+[node name="Corruption_8" type="Sprite" parent="."]
+position = Vector2( 1352, -880 )
+texture = ExtResource( 5 )
+
+[node name="Corruption_9" type="Sprite" parent="."]
+position = Vector2( 1480, -880 )
+texture = ExtResource( 5 )
+
+[node name="Forest_7" type="Sprite" parent="."]
+position = Vector2( 315.582, -867.438 )
+texture = ExtResource( 7 )
+
+[node name="Forest_8" type="Sprite" parent="."]
+position = Vector2( -433.662, -765.803 )
+texture = ExtResource( 7 )
+
+[node name="Corruption_10" type="Sprite" parent="."]
+position = Vector2( -408, -816 )
+texture = ExtResource( 5 )
+
+[node name="Corruption_11" type="Sprite" parent="."]
+position = Vector2( 392, -600 )
+texture = ExtResource( 3 )
+
+[node name="Tree_12" type="Sprite" parent="."]
+position = Vector2( 1737.22, -646.366 )
+texture = ExtResource( 8 )
+
+[node name="Tree_13" type="Sprite" parent="."]
+position = Vector2( 1861.81, -906.876 )
+texture = ExtResource( 8 )
+
+[node name="Tree_11" type="Sprite" parent="."]
+position = Vector2( 623.444, -680.346 )
+texture = ExtResource( 8 )
+
+[node name="Tree_14" type="Sprite" parent="."]
+position = Vector2( 653.648, -978.61 )
+texture = ExtResource( 8 )
+
+[node name="Tree_15" type="Sprite" parent="."]
+position = Vector2( 328.955, -400.959 )
+texture = ExtResource( 8 )
+
+[node name="Tree_16" type="Sprite" parent="."]
+position = Vector2( 702.647, -155.735 )
+texture = ExtResource( 8 )
+
+[node name="Tree_17" type="Sprite" parent="."]
+position = Vector2( -414.9, 40.5909 )
+texture = ExtResource( 8 )
+
+[node name="Tree_18" type="Sprite" parent="."]
+position = Vector2( 544.076, 557.834 )
+texture = ExtResource( 8 )
+
+[node name="Tree_19" type="Sprite" parent="."]
+position = Vector2( 174.077, -638.999 )
+texture = ExtResource( 8 )
+
+[node name="KinematicBody2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( 636.136, 356.683 )
+
+[node name="Tree_20" type="Sprite" parent="."]
+position = Vector2( -34.4717, 551.012 )
+texture = ExtResource( 8 )
+
+[node name="Tree_21" type="Sprite" parent="."]
+position = Vector2( 1562.46, -144.273 )
+texture = ExtResource( 8 )

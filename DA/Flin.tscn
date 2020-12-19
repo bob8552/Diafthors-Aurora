@@ -1,0 +1,39 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Flin.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Flin_1.png" type="Texture" id=2]
+[ext_resource path="res://FadeInAndOut.tres" type="Animation" id=3]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 29.9337
+height = 32.6656
+
+[node name="KinematicBody2D" type="KinematicBody2D"]
+position = Vector2( 636.227, 363.292 )
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -0.210205, 0.420471 )
+scale = Vector2( 0.247601, 0.266978 )
+texture = ExtResource( 2 )
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/FadeInAndOut = ExtResource( 3 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = -639.0
+margin_top = -361.0
+margin_right = 645.0
+margin_bottom = 362.0
+color = Color( 0, 0, 0, 0 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
