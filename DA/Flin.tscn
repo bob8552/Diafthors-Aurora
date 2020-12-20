@@ -1,12 +1,17 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Flin.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Flin_1.png" type="Texture" id=2]
 [ext_resource path="res://FadeInAndOut.tres" type="Animation" id=3]
+[ext_resource path="res://Assets/Fonts/PressStart2P-vaV7.ttf" type="DynamicFontData" id=4]
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 29.9337
 height = 32.6656
+
+[sub_resource type="DynamicFont" id=2]
+size = 24
+font_data = ExtResource( 4 )
 
 [node name="KinematicBody2D" type="KinematicBody2D"]
 position = Vector2( 636.227, 363.292 )
@@ -29,11 +34,22 @@ current = true
 anims/FadeInAndOut = ExtResource( 3 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
-margin_left = -639.0
-margin_top = -361.0
-margin_right = 645.0
-margin_bottom = 362.0
+margin_left = -639.472
+margin_top = -355.809
+margin_right = 644.528
+margin_bottom = 367.191
 color = Color( 0, 0, 0, 0 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = -628.127
+margin_top = 322.718
+margin_right = 187.873
+margin_bottom = 346.718
+custom_fonts/font = SubResource( 2 )
+text = "Use the arrow keys or WASD to move"
 __meta__ = {
 "_edit_use_anchors_": false
 }

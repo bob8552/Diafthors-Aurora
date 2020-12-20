@@ -18,7 +18,7 @@ func _physics_process(delta):
 	var movement = speed * direction * delta
 	move_and_collide(movement)
 	
-# i spent like 2 hours on this retarded function
+# i spent like 2 hours on this dumb retarded function
 func _on_Area2D_body_entered(body):
 	$AnimationPlayer.play("FadeInAndOut") #fade out and in cutscene thingie
 	yield(get_tree().create_timer(1.8), "timeout")
